@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head1>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wet Wet Wet</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<div class="content">
     <h1>WET WET WET</h1>
     <p>Let's keep you dry! Check when it's going to rain so you can stay inside!</p>
     <img src="https://img.freepik.com/premium-photo/sad-man-standing-rain-drenched-with-tears-mixing-with-raindrops-symbolizing-deep-emotional-pain_1057402-9803.jpg?w=360" alt="Sad man standing in the rain, drenched, standing in a puddle" >
- <form>
-    <label for="country">Country:</label>
-    <select id="country" name="country">
-    
-    <button type="submit">Check Weather</button>
- </form>
+ </div>
+    <form>
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="US">United States</option>
+            <option value="GB">United Kingdom</option>
+            <option value="CA">Canada</option>
+            <option value="AU">Australia</option>
+            <option value="IN">India</option>
+        </select>
+        <button type="submit" id="button">Check Weather</button>
+    </form>
+    <div id="weather-result"></div>
 <!--Link to script.js file -->
-<script type="module" src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+    </body>
 </html>
