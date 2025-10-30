@@ -1,22 +1,46 @@
 /* Page background */
 
 * {
-    background-color: lightgreen;
+    background-color: rgb(98, 148, 173);
 }
 
 h1 {
-    color: aqua;
-    text-align: center;
+  color: black;
+  text-align: center;
 }
 
-p {
-    text-align: center;
-    color: rgb(red, green, rgb(11, 11, 238))
-}
+ text-align: center;
+  color: rgb(11, 11, 238);
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 20px auto;
+  max-width: 600px;
+
+
 
 img {
     border: 5px solid blue;
     border-radius: 10px;
     display: block;
     margin: 0 auto;
+}
+.content {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.content img {
+  border: 5px solid blue;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+.content p {
+  color: rgb(11, 11, 238);
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.6;
 }
