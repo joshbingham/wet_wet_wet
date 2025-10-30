@@ -1,5 +1,17 @@
+/* Page background */
+
+* {
+    background-color: lightgreen;
+}
+
 h1 {
     color: aqua;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: rgb(red, green, rgb(11, 11, 238))
 }
 
 img {
