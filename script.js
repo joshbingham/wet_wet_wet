@@ -1,3 +1,4 @@
+/*
 import { WEATHERSTACK_API_KEY as apiKey } from './config.js';
 
 const city = "London";
@@ -11,3 +12,28 @@ fetch(url)
   })
   .catch(err => console.error(err));
 
+*/
+
+// Note: The above code is commented out for future use.
+
+// Current functionality is focused on static content display.
+
+
+// Call the function to display weather info
+
+document.addEventListener('DOMContentLoaded', () => {
+    const weatherDiv = document.getElementById('weather-result');
+    const button = document.getElementById('button');
+
+    function displayWeatherInfo() {
+        weatherDiv.innerHTML = 
+            `<h2>Current Weather</h2>
+            <p>Temperature: 15°C</p>
+            <p>Conditions: Partly Cloudy</p>`;
+    }
+
+    button.addEventListener('click', (event) => {
+        event.preventDefault();
+        displayWeatherInfo();
+    });
+});
